@@ -3,6 +3,9 @@ import Home from "./pages/Home";
 import TradingFeatures from "./pages/TradingFeatures";
 import MarketUpdate from "./pages/MarketUpdate";
 import TrackPrices from "./pages/TrackPrices";
+import Track from "./pages/Track";
+import Footer from "./pages/Footer";
+import Features from "./pages/Features";
 
 export default function App() {
   return (
@@ -24,6 +27,10 @@ export default function App() {
       <section id="track">
         <TrackPrices />
       </section>
+      <Features />
+      <Track />
+      <Footer />
+
     </div>
   );
 }

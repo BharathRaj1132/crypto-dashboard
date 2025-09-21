@@ -202,3 +202,40 @@ body {
 }
 .spark-up { background: linear-gradient(90deg, #2bd47b, transparent); }
 .spark-down { background: linear-gradient(90deg, #ff6b6b, transparent); }
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+.feature-card {
+  background: #161b22;
+  border-radius: 12px;
+  padding: 20px;
+  color: #fff;
+}
+.feature-card img { margin-top: 12px; max-width: 100%; }
+.feature-card.wide { grid-column: span 2; }
+
+.track-section {
+  background: #0f1416;
+}
+.track-text { max-width: 500px; }
+.track-graphics img { max-height: 320px; }
+
+.footer-section {
+  background: #0b0d17;
+  padding: 40px 20px;
+}
+.earn-banner {
+  background: linear-gradient(90deg, #2C3134, #0f1220);
+  padding: 30px;
+  border-radius: 12px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+.footer-bottom { color: #aaa; font-size: 14px; }
